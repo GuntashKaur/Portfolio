@@ -178,6 +178,7 @@ body img{
     color:antiquewhite;
     padding-right: 3rem;
     font-size: medium;
+  
 }
 
 .footer li{
@@ -187,5 +188,23 @@ body img{
     padding-left: 2rem;
     padding-top: 2rem;
   
+}
 
+.footer ul li a{
+     color: antiquewhite;
+    border: 2px solid antiquewhite;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 4px 12px 4px 12px;
+
+}
+
+.footer ul li a:hover{
+    color:#f51261;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 4px 12px 4px 12px;
+    
 }
