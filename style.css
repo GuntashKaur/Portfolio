@@ -18,10 +18,12 @@ body{
     
 }
 
+
+
 .navigation div h1{
     color:antiquewhite;
-    padding: 0.4rem 0rem 0rem 6rem;
-    font-size: 1.5rem;
+    width:700px;
+    margin: auto;
     
 }
 .navigation ul{
@@ -63,57 +65,63 @@ body img{
 
 .technologies {
     background-color:rgb(219, 219, 219);
-    padding: 1.5rem ;
     border-radius: 40px 0px 40px 0px;
-    margin: 0rem 3rem;
+    width: 70rem;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .technologies h2{
     text-align: center;
-    padding: 0.4rem;
     color: rgb(65, 65, 65);
 }
 
 .technologies p{
-    display: block;
     font-size: 20px;
     color: rgb(65, 65, 65);
-    padding: 0rem 15rem;
-    text-align: justify;
+    text-align:center;
+    width:50rem;
+    margin: auto;
 }
 
 .projects{
     background-color:rgb(219, 219, 219);
-    padding: 1.5rem ;
     border-radius: 40px 0px 40px 0px;
-    margin: 3rem 3rem;
+    width: 70rem;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .projects h2{
     text-align: center;
-    padding: 0.4rem;
     color: rgb(65, 65, 65);
 }
 
 .projects p{
-    display: block;
     font-size: 20px;
     color: rgb(65, 65, 65);
-    padding: 0rem 15rem 2rem 15rem;
-    text-align: justify;
+    text-align: center;
+    width:50rem;
+    margin: auto;
 }
 
 .projects a{
     background-color: #f51261;
     color:antiquewhite;
-    margin-left: 34rem;
-    
     border: none;
     border-radius: 10px;
     padding: 10px;
-    width: 150px;
     font-size: medium;
     text-decoration: none;
+    width:100px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .projects a:hover{
@@ -124,37 +132,44 @@ body img{
 
 .blogs{
     background-color:rgb(219, 219, 219);
-    padding: 1.5rem ;
     border-radius: 40px 0px 40px 0px;
-    margin: 3rem 3rem;
+    width: 70rem;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 
 .blogs h2{
     text-align: center;
-    padding: 0.4rem;
     color: rgb(65, 65, 65);
 }
 
 .blogs p{
-    display: block;
     font-size: 20px;
     color: rgb(65, 65, 65);
-    padding: 0rem 15rem 2rem 15rem;
-    text-align: justify;
+    text-align: center;
+    width:50rem;
+    margin: auto;
 }
 
 .blogs a{
     border: 2px solid #f51261;
     background-color: rgb(219, 219, 219);
     color: #f51261;
-    margin-left: 34rem;
     border-radius: 10px;
     padding: 10px;
     width: 150px;
     font-size: medium;
     text-decoration: none;
+    width:100px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
 }
+
 
 .blogs a:hover{
     background-color: #f51261;
@@ -166,12 +181,16 @@ body img{
 .footer{
     background-color:#f51261;
     color: antiquewhite;
-    padding: 1.5rem ;
     border-radius: 40px 40px 0px 0px;
-    margin: 3rem 3rem 0rem 3rem;
     text-align: center;
     font-size: medium;
+    width: 70rem;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
 }
+
 
 .footer ul{
     display: inline;
