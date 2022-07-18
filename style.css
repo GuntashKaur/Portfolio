@@ -15,12 +15,12 @@ body{
     background-color: #f51261;
     padding-bottom: 0.01rem;
     border-radius: 0px 0px 0px 40px;
+    max-width:70rem;
     margin: auto;
 }
 
 .navigation div h1{
     color:antiquewhite;
-    
     margin-right: 1rem;
 }
 .navigation ul{
@@ -49,23 +49,23 @@ body{
 
 body img{
     width: 600px;
-    margin: auto;
     display: block;
+   margin: auto;
 }
 
 .header-main{
     text-align: center;
     color: #64748b;
-    width: 500px;
     margin: auto;
     margin-bottom: 2rem;
+    max-width: 600px;
 }
 
 
 .technologies {
     background-color:rgb(219, 219, 219);
     border-radius: 40px 0px 40px 0px;
-    width: 70rem;
+    max-width: 70rem;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -81,14 +81,14 @@ body img{
     font-size: 20px;
     color: rgb(65, 65, 65);
     text-align:center;
-    width:50rem;
+    max-width:50rem;
     margin: auto;
 }
 
 .projects{
     background-color:rgb(219, 219, 219);
     border-radius: 40px 0px 40px 0px;
-    width: 70rem;
+    max-width: 70rem;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -104,7 +104,7 @@ body img{
     font-size: 20px;
     color: rgb(65, 65, 65);
     text-align: center;
-    width:50rem;
+    max-width:50rem;
     margin: auto;
 }
 
@@ -116,7 +116,7 @@ body img{
     padding: 10px;
     font-size: medium;
     text-decoration: none;
-    width:100px;
+    max-width:100px;
     margin: auto;
     display: block;
     text-align: center;
@@ -132,7 +132,7 @@ body img{
 .blogs{
     background-color:rgb(219, 219, 219);
     border-radius: 40px 0px 40px 0px;
-    width: 70rem;
+    max-width: 70rem;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 30px;
@@ -149,7 +149,7 @@ body img{
     font-size: 20px;
     color: rgb(65, 65, 65);
     text-align: center;
-    width:50rem;
+    max-width:50rem;
     margin: auto;
 }
 
@@ -159,7 +159,7 @@ body img{
     color: #f51261;
     border-radius: 10px;
     padding: 10px;
-    width: 150px;
+    max-width: 150px;
     font-size: medium;
     text-decoration: none;
     width:100px;
@@ -182,7 +182,7 @@ body img{
     color: antiquewhite;
     text-align: center;
     font-size: medium;
-    width: 70rem;
+    max-width: 70rem;
     padding-top: 20px;
     padding-bottom: 30px;
     border-radius: 40px 40px 0px 0px;
