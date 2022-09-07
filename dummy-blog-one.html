@@ -19,13 +19,22 @@
         <hr style="width:500px;">
 
         <p style="text-align:justify; margin: 0rem 10rem; color: #81878f; font-size: 20px;">
-            Promise is method in advance Javascript. Before moving toward any heavy definition let's understand Promise with an example. Suppose a guy named xyz asked his friend to meet at a Resturant and his friend promised him that they will meet tomorrow. The Promise taken by xyz can be divided into three stages - <br> 1. Pending - Till the day arrive the Promise will remain Pending.
+            Promise is method in advance Javascript. Before moving toward any heavy definition let's understand Promise with an example. Suppose a guy named xyz asked his friend to meet at a Resturant and his friend promised him that they will meet tomorrow. The Promise taken by the friend of xyz can be divided into three stages - <br> 1. Pending - Till the day arrive the Promise will remain Pending.
             <br> 2. Fulfiled - If xyz meet his friend tomorrow, the promise will get fulfiled.
+            <br> 3. Rejected - If they can't meet, the promise will get rejected.
         </p>
-        <h2 style="color:#81878f; font:bold; margin: 2rem 10rem;">Lorem ipsum dolor sit amet.</h2>   
-            <p style="text-align:justify; margin: 0rem 10rem; color: #81878f; font-size: 20px;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem quo sequi nobis voluptates numquam temporibus recusandae reiciendis quaerat porro quam earum, officiis delectus nihil tenetur, incidunt quis dolorem autem odit. Ab officiis a ad autem molestias eum alias perspiciatis, expedita ex inventore fugit maiores corrupti, doloremque, et totam omnis dolores consectetur nisi? Tenetur, deleniti? Corporis provident consequuntur earum, minus aliquid eligendi neque. Eos dolores debitis, laborum ratione illo voluptatem sed, repellendus est voluptatibus molestias soluta atque quisquam sit excepturi nisi minus sapiente! Praesentium iusto rem sed illum atque quaerat, nemo quas consectetur molestias reprehenderit voluptas laboriosam blanditiis. Beatae suscipit id itaque ex minima facere culpa possimus, dolor facilis, et quasi assumenda tempora harum perferendis ad officia voluptatem error. Sequi eligendi corrupti dicta maiores dolorum ex nemo totam inventore voluptas eius nostrum eaque distinctio molestias illo, dolores iste temporibus corporis nisi quos, accusantium repudiandae earum voluptatibus. Rerum debitis magni expedita iusto tempore, voluptas quaerat harum repellendus dolores labore quia ex quam sint saepe itaque necessitatibus quidem eveniet, repudiandae iure totam deserunt et excepturi at perferendis. Dolore corporis et accusamus consequatur maxime libero, cum laborum ducimus reiciendis magnam quas placeat ab quod officiis corrupti est delectus repellat suscipit voluptatum. Deleniti, assumenda.
+        
+        <br><br>
+            <p style="text-align:justify; margin: 0rem 10rem 0rem 10rem; color: #81878f; font-size: 20px; ">
+            In Javascript the promise method work like the above example. In this method, we basically specify a condition and on the basis of that condition two outcomes are possible. Either the condition will get fulfiled (we can say the condition is resolved) or condition will get failed i.e. the condition is rejected.
             </p>
+
+            <br>
+            <p style="text-align:justify; margin: 0rem 10rem 0rem 10rem; color: #81878f; font-size: 20px; ">
+            If condition of a problem get resolved, then we can use <b>then()</b> function. In then() function we use to define that what we will do if condition get fulfiled. And if condition of a problem gets rejection, then we use <b>catch()</b> function. In catch() function we define what will be our next decision or step if condition gets rejected. Both <b>then()</b> and <b>catch()</b> functions are call back function. They are inbuilt fuctions. These function will automaticaly called when we call resolve() or reject() function. 
+            </p>
+
+            <img src="image/promise.PNG">
 
             <div class="footer">
                 <h2>Social Media Presence</h2>
