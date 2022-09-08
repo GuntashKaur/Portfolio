@@ -2,6 +2,7 @@
     <head>
         <title>blog One</title>
         <link href="style.css" rel="stylesheet">
+    
     </head>
     <body>
         <nav class="navigation" >
@@ -19,22 +20,49 @@
         <hr style="width:500px;">
 
         <p style="text-align:justify; margin: 0rem 10rem; color: #81878f; font-size: 20px;">
-            Promise is method in advance Javascript. Before moving toward any heavy definition let's understand Promise with an example. Suppose a guy named xyz asked his friend to meet at a Resturant and his friend promised him that they will meet tomorrow. The Promise taken by the friend of xyz can be divided into three stages - <br> 1. Pending - Till the day arrive the Promise will remain Pending.
-            <br> 2. Fulfiled - If xyz meet his friend tomorrow, the promise will get fulfiled.
+            Promise is method in advance Javascript. Before moving toward any heavy definition let's understand Promise with an example. Suppose a guy named XYZ asked his friend to meet at a Restaurant and his friend promised him that they will meet tomorrow. The Promise taken by the friend of XYZ can be divided into three stages - <br> 1. Pending - Till the day arrive the Promise will remain Pending.
+            <br> 2. Fulfiled - If XYZ meets his friend tomorrow, the promise will get fulfiled.
             <br> 3. Rejected - If they can't meet, the promise will get rejected.
         </p>
         
         <br><br>
             <p style="text-align:justify; margin: 0rem 10rem 0rem 10rem; color: #81878f; font-size: 20px; ">
-            In Javascript the promise method work like the above example. In this method, we basically specify a condition and on the basis of that condition two outcomes are possible. Either the condition will get fulfiled (we can say the condition is resolved) or condition will get failed i.e. the condition is rejected.
+                In Javascript, the promise method works like the above example. In this method, we basically specify a condition and on the basis of that condition, two outcomes are possible. Either the condition will get fulfiled (we can say the condition is resolved) or the condition will get failed i.e. the condition is rejected.
             </p>
 
             <br>
             <p style="text-align:justify; margin: 0rem 10rem 0rem 10rem; color: #81878f; font-size: 20px; ">
-            If condition of a problem get resolved, then we can use <b>then()</b> function. In then() function we use to define that what we will do if condition get fulfiled. And if condition of a problem gets rejection, then we use <b>catch()</b> function. In catch() function we define what will be our next decision or step if condition gets rejected. Both <b>then()</b> and <b>catch()</b> functions are call back function. They are inbuilt fuctions. These function will automaticaly called when we call resolve() or reject() function. 
+                If the condition of a problem gets resolved, then we can use then() function. In then() function we use it to define what we will do if the condition gets fulfiled. And if the condition of a problem gets rejection, then we use catch() function. In catch() function we define what will be our next decision or step if the condition gets rejected. Both then() and catch() functions are call back function. They are inbuilt functions. These functions will automatically be called when we call resolve() or reject() function.
             </p>
 
-            <img src="image/promise.PNG">
+            <img src="image/promise.PNG" style="margin-top:40px; margin-bottom:20px;">
+
+            <h3 style=" font-size: 30px; text-align:center; color: #f51261;">Promise Syntax</h3>   
+            <img src="image/syntax.PNG" style="margin-top:40px; margin-bottom:20px;">
+
+            <p style="text-align:justify; margin: 0rem 10rem 6rem 10rem; color: #81878f; font-size: 20px; ">
+                let prom = new Promise() <br>  //  in the variable, define a method and the variable becomes the object of the Promise <br><br>
+
+                let prom = new Promise(function(){ }); <br>
+                // A function defined in the Promise method
+                <br><br>
+
+                let prom = new Promise(function(resolve, reject){ }); 
+                <br> // two parameters are taken inside the function i.e. resolve and reject
+                <br> // if the function gets resolved then we call a function named resolve and if function gets rejected , reject function will call<br><br>
+
+
+                <img src="image/syntax2.PNG" style="margin-top:40px; margin-bottom:20px;">
+
+                <br>
+                if condition is fulfiled then resolve will called else reject will called.
+
+                <img src="image/syntax4.PNG" style="margin-top:40px; margin-bottom:20px;">
+
+                If the condition gets satisfied and we call the resolve function then automatically then() function will be called else we call the reject function and then automatically catch() function will be called.
+                
+
+                </p>
 
             <div class="footer">
                 <h2>Social Media Presence</h2>
